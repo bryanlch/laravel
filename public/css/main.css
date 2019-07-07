@@ -1,0 +1,111 @@
+	/*Body */
+	html,body {
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient(180deg, #35a487 20%, #3992e1 80%);
+	}
+
+	/* barra de navegacion*/
+	#header {
+		padding: 2em 2em 2em 2em ;
+		text-align: center;
+	}
+
+		#header h1 {
+			margin: 0 0 0.25em 0;
+		}
+
+		#header p {
+			font-size: 1.25em;
+			letter-spacing: -0.025em;
+		}
+
+		#header.alt {
+			padding: 2em 2em 2em 2em ;
+		}
+
+			#header.alt h1 {
+				font-size: 3.25em;
+			}
+
+				#header.alt .logo img {
+					display: block;
+					margin: 0 auto;
+					max-width: 65%;
+				}
+
+
+     .colorblack {
+     	color: black;
+		font-weight:bold;
+		font-size: 18px;
+		text-transform: uppercase;
+		padding: 0px 15px 0px 15px;
+     }
+     a .colorblack{
+     	font-size: 20px;
+     }
+
+     .esquina{
+     	border-radius: 10px;
+     	padding: 10px 10px 10px 10px;
+     }
+
+     .fondo{
+     	padding: 10px 10px 10px 10px;
+     	margin: 0px 50px 0px 50px ;
+     	background: white;
+     }
+
+     .centro{
+
+  			margin: 1rem;
+  			padding: 1rem;
+  			text-align: center;
+  			display: center;
+     }
+
+     .abajo{
+
+     	bottom: 0;
+     	width: 100%;
+     	height: 50px;
+     	
+     }
+
+
+      <style type="text/css">
+.midiv {
+	width:940px;
+	margin:0 auto;
+	height:250px;
+	padding:20px;
+	background-color: #F00;
+	color: #FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+	text-align:center;
+	font-size:25px;
+	
+}
+
+.midiv2 {
+	width:900px;
+	margin:0 auto;
+	height:50px;
+	padding:10px;
+	background-color: #000;
+	color:#FFF;
+	vertical-align: middle;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-size:25px;
+}
+</style>

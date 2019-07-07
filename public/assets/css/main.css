@@ -1,0 +1,160 @@
+	/*Body */
+		html,body {
+		width: 100%;
+		height: 100%;
+		/* background-image: linear-gradient(180deg, #35a487 20%, #3992e1 80%);*/
+		background: rgba(37,37,37,0.7);
+	}
+
+	/* barra de navegacion*/
+	#header {
+		padding: 2em 2em 2em 2em ;
+		text-align: center;
+	}
+
+		#header h1 {
+			margin: 0 0 0.25em 0;
+		}
+
+		#header p {
+			font-size: 1.25em;
+			letter-spacing: -0.025em;
+		}
+
+		#header.alt {
+			padding: 2em 2em 2em 2em ;
+		}
+
+			#header.alt h1 {
+				font-size: 3.25em;
+			}
+
+
+
+				#header.alt .logo img {
+					display: block;
+					margin: 0 auto;
+					max-width: 65%;
+				}
+
+
+     .colorblack {
+     	color: black;
+     }
+
+     .esquina{
+     	border-radius: 10px;
+     }
+
+     h3{
+     	font-size: 18px;
+     }
+     .centro{
+  			text-align: center;
+  			display: center;
+     }
+
+     .abajo{
+     	position: fixed;
+     	bottom: 0;
+     	
+     }
+
+
+          /* ocultar un div ejemplo */
+
+     <style type="text/css">
+.midiv {
+	width:940px;
+	margin:0 auto;
+	height:250px;
+	padding:20px;
+	background-color: #F00;
+	color: #FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+	text-align:center;
+	font-size:25px;
+	
+}
+
+.midiv2 {
+	width:900px;
+	margin:0 auto;
+	height:50px;
+	padding:10px;
+	background-color: #000;
+	color:#FFF;
+	vertical-align: middle;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-size:25px;
+}
+</style>
+
+
+/* slinder bar*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebarp {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(52,4,48,1) 0%, rgba(34,56,89,1) 50%, rgba(30,93,118,1) 70%, rgba(32,127,141,1) 100%);
+  left: -200px;
+  transition: all 500ms linear;
+  outline: 2px;
+}
+
+#sidebarp.active {
+  left: 0px;
+}
+
+#sidebarp ul li {
+  color: rgba(230, 230, 230, .9);
+  list-style: none;
+  padding: 20px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, .3);
+  text-align: center;
+  transition-property: border;
+  transition-duration: 0.4s ;  
+}
+
+#sidebarp img{
+	display: block;
+	margin: 5px;
+}
+
+#sidebarp li:hover{
+	background: rgba(100, 100, 100, .3);
+	border-left: 20px solid #eee;
+}
+
+#sidebarp .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#sidebarp .toggle-btn span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 3px solid #000;
+}
+
+.panel{
+  
+}
