@@ -52,7 +52,7 @@
       <aside>
           <div id="sidebar"  class="nav-collapse ">
               <ul class="sidebar-menu" id="nav-accordion">
-                  <p class="centered"><a href="profile.html"><img src="{{asset('assets/img/diamante.svg')}}" width="100"></a></p>
+                  <p class="centered"><a href="#"><img src="{{asset('assets/img/diamante.svg')}}" width="100"></a></p>
                   <h5 class="centered">Menu</h5>
                     
                   <li class="mt">

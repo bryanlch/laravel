@@ -4,17 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Diamond Club</title>
+        <link rel="shortcut icon" href="{{asset('assets/img/favicon.ico')}}"> 
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
+                background: linear-gradient(0deg, rgba(52,4,48,1) 10%, rgba(34,56,89,1) 25%, rgba(30,93,118,1) 70%, rgba(32,127,141,1) 100%);
+                color: #fff;
+                font-family: sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -45,13 +45,13 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 60px;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #fff;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 12px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -81,17 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <a href="#"><img src="{{asset('assets/img/diamante.svg')}}" width="300"></a>
+                    <h2>Diamond Club</h2>
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                        <h1>Managua-Nicaragua</h1>
                 </div>
             </div>
         </div>
